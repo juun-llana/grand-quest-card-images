@@ -1,0 +1,297 @@
+{
+  "ST01-001": {
+    "id": "ST01-001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crimson Knight, Mordanis",
+        "type": "Adventurer",
+        "cost": "0",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-001.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Knight, Mordanis",
+    "type": "Adventurer",
+    "cost": "0"
+  },
+  "ST01-002": {
+    "id": "ST02-002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Cave Goblin",
+        "type": "Hire",
+        "cost": "1",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cave Goblin",
+    "type": "Hire",
+    "cost": "1"
+  },
+  "ST01-003": {
+    "id": "ST01-003",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dynamite Goblin",
+        "type": "Hire",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-003.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dynamite Goblin",
+    "type": "Hire",
+    "cost": "2"
+  },
+  "ST01-004": {
+    "id": "ST01-004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lava Bat",
+        "type": "Hire",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-004.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lava Bat",
+    "type": "Hire",
+    "cost": "2"
+  },
+  "ST01-005": {
+    "id": "ST01-005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lavalain Mage",
+        "type": "Hire",
+        "cost": "-1",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-005.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lavalain Mage",
+    "type": "Hire",
+    "cost": "3"
+  },
+  "ST01-006": {
+    "id": "ST01-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Laval Captain",
+        "type": "Hire",
+        "cost": "3",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-006.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Laval Captain",
+    "type": "Hire",
+    "cost": "3"
+  },
+  "ST01-007": {
+    "id": "ST01-007",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Charhound Pack",
+        "type": "Hire",
+        "cost": "0",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-007.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Charhound Pack",
+    "type": "Hire",
+    "cost": "8"
+  },
+  "ST01-008": {
+    "id": "ST01-008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crimson Squire, Karis",
+        "type": "Hire",
+        "cost": "4",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-008.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Squire, Karis",
+    "type": "Hire",
+    "cost": "4"
+  },
+  "ST01-009": {
+    "id": "ST01-009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mountain Ogre",
+        "type": "Hire",
+        "cost": "4",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-009.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mountain Ogre",
+    "type": "Hire",
+    "cost": "4"
+  },
+  "ST01-010": {
+    "id": "ST01-010",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Goblin King",
+        "type": "Hire",
+        "cost": "5",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-010.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Goblin King",
+    "type": "Hire",
+    "cost": "5"
+  },
+  "ST01-011": {
+    "id": "ST01-011",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Crimson Tactician, Salem",
+        "type": "Hire",
+        "cost": "6",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-011.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crimson Tactician, Salem",
+    "type": "Hire",
+    "cost": "6"
+  },
+  "ST01-012": {
+    "id": "ST01-012",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Burgin the Brute",
+        "type": "Hire",
+        "cost": "6",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-012.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Burgin the Brute",
+    "type": "Hire",
+    "cost": "6"
+  },
+  "ST01-013": {
+    "id": "ST01-013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Blazing Parry",
+        "type": "Action",
+        "cost": "1",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-013.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blazing Parry",
+    "type": "Action",
+    "cost": "1"
+  },
+  "ST01-014": {
+    "id": "ST01-014",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Laval Sword Slash",
+        "type": "Action",
+        "cost": "3",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-014.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Laval Sword Slash",
+    "type": "Action",
+    "cost": "3"
+  },
+  "ST01-015": {
+    "id": "ST01-015",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Eruption",
+        "type": "Action",
+        "cost": "7",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-015.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Eruption",
+    "type": "Action",
+    "cost": "7"
+  },
+  "ST01-016": {
+    "id": "ST01-016",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lavalin Castle",
+        "type": "Sustainable",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-016.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lavalin Castle",
+    "type": "Sustainable",
+    "cost": "2"
+  },
+  "ST01-017": {
+    "id": "ST01-017",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Laval Sword",
+        "type": "Equipment",
+        "cost": "0",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-017.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Laval Sword",
+    "type": "Equipment",
+    "cost": "2"
+  },
+  "ST01-018": {
+    "id": "ST01-018",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Volcanic Cavern",
+        "type": "Destination",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-018-f.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Volcanic Cavern, Abyssal Chamber",
+        "type": "Destination",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-018-b.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Volcanic Cavern",
+    "type": "Destination",
+    "cost": 0
+  }
+}
