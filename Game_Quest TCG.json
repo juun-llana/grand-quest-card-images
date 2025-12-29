@@ -8,7 +8,7 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "",
+    "dataUrl": "https://juun-llana.github.io/grand-quest-card-images/CardList.json",
     "cardBack": ""
   },
   "deckBuilding": {
