@@ -126,12 +126,6 @@
                   "style": false,
                   "content": [
                     {
-                      "section": "Deck",
-                      "style": {
-                        "width": 100
-                      }
-                    },
-                    {
                       "section": "Discard",
                       "style": {
                         "width": 100
@@ -164,24 +158,26 @@
           "Equipment": "Field"
         },
         "sectionsDict": {
-          "Field": {
-            "title": "Field",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Destination": {
-            "title": "Destination",
+          "Discard": {
+            "title": "Discard",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -212,8 +208,92 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Discard": {
-            "title": "Discard",
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Exile": {
+            "isDefaultSection": true,
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "displayedTitle": "Removed",
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ExileHidden": {
+            "isDefaultSection": true,
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "displayedTitle": "Removed hidden",
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Sideboard": {
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Field": {
+            "title": "Field",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Destination": {
+            "title": "Destination",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
