@@ -17,7 +17,13 @@
       "Cost",
       "Strength"
     ],
-    "formats": []
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
