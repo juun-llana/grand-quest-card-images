@@ -22,7 +22,9 @@
         "title": "Standard",
         "gameplay": "Standard",
         "customCategories": [
-          "Aether_Deck"
+          "Aether_Deck",
+          "Adventurer",
+          "Destination"
         ]
       }
     ]
@@ -66,54 +68,77 @@
               "content": [
                 {
                   "direction": "column",
-                  "style": false,
+                  "style": {
+                    "width": 150
+                  },
                   "content": [
                     {
                       "section": "Adventurer",
                       "style": {
-                        "Width": 12
+                        "width": 100
+                      }
+                    },
+                    {
+                      "section": "Aether_Deck",
+                      "style": {
+                        "width": 100
                       }
                     }
                   ],
                   "isSymetricalForOpponents": false
                 },
                 {
-                  "section": "Field",
-                  "style": false
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Field",
+                      "style": {
+                        "width": 800
+                      }
+                    },
+                    {
+                      "section": "Aether_Zone",
+                      "style": {
+                        "width": 800
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "width": 150
+                  },
+                  "content": [
+                    {
+                      "section": "Destination",
+                      "style": {
+                        "width": 100
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
                 },
                 {
                   "direction": "column",
                   "style": false,
                   "content": [
                     {
-                      "section": "Destination",
-                      "style": false
+                      "section": "Deck",
+                      "style": {
+                        "width": 100
+                      }
                     },
                     {
-                      "section": "Deck",
-                      "style": false
+                      "section": "Discard",
+                      "style": {
+                        "width": 100
+                      }
                     }
                   ],
                   "isSymetricalForOpponents": false
-                }
-              ],
-              "isSymetricalForOpponents": false
-            },
-            {
-              "direction": "row",
-              "style": false,
-              "content": [
-                {
-                  "section": "Aether_Deck",
-                  "style": false
-                },
-                {
-                  "section": "Aether_Zone",
-                  "style": false
-                },
-                {
-                  "section": "Discard",
-                  "style": false
                 }
               ],
               "isSymetricalForOpponents": false
@@ -121,7 +146,9 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Aether_Deck"
+          "Aether_Deck",
+          "Adventurer",
+          "Destination"
         ],
         "autoPlayFromHand": {
           "Hire": "Field",
