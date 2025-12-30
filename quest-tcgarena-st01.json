@@ -1,4 +1,5 @@
-{
+[
+  {
   "format": [
     "Standard"
   ],
@@ -110,4 +111,6 @@
     "Sideboard": []
   },
   "cardCount": 62
+
 }
+]
