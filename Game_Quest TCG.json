@@ -51,9 +51,9 @@
       "sections": {
         "customSections": [
           "Field",
-          "Aether Zone",
-          "Aether Deck",
-          "Leader",
+          "Aether_Zone",
+          "Aether_Deck",
+          "Adventurer",
           "Destination"
         ],
         "layout": {
@@ -69,7 +69,7 @@
                   "style": false,
                   "content": [
                     {
-                      "section": "Leader",
+                      "section": "Adventurer",
                       "style": {
                         "Width": 12
                       }
@@ -104,11 +104,11 @@
               "style": false,
               "content": [
                 {
-                  "section": "Aether Deck",
+                  "section": "Aether_Deck",
                   "style": false
                 },
                 {
-                  "section": "Aether Zone",
+                  "section": "Aether_Zone",
                   "style": false
                 },
                 {
@@ -121,38 +121,22 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Aether Deck"
+          "Aether_Deck"
         ],
         "autoPlayFromHand": {
           "Hire": "Field",
-          "Action": "Drop Zone",
+          "Action": "Discard",
           "Sustainable": "Field",
           "Equipment": "Field"
         },
         "autoPlayFromStack": {
-          "Aether": "Aether Zone",
+          "Aether": "Aether_Zone",
           "Hire": "Field",
-          "Action": "Drop Zone",
+          "Action": "Discard",
           "Sustainable": "Field",
           "Equipment": "Field"
         },
         "sectionsDict": {
-          "Leader Zone": {
-            "title": "Leader Zone",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
           "Field": {
             "title": "Field",
             "isHidden": "no",
@@ -201,38 +185,6 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Aether Deck": {
-            "title": "Aether Deck",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Aether Zone": {
-            "title": "Aether Zone",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
           "Discard": {
             "title": "Discard",
             "isHidden": "no",
@@ -248,6 +200,54 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+          "Aether_Deck": {
+            "title": "Aether_Deck",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Aether_Zone": {
+            "title": "Aether_Zone",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Adventurer": {
+            "title": "Adventurer",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           }
         }
       }
