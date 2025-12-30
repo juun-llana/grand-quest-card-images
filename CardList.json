@@ -293,5 +293,21 @@
     "name": "Volcanic Cavern",
     "type": "Destination",
     "cost": 0
+  },
+  "A-001": {
+    "id": "A-001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aether",
+        "type": "Aether",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Aether Cards/A-001.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aether",
+    "type": "Aether",
+    "cost": 0
   }
 }
