@@ -20,13 +20,15 @@
     "formats": [
       {
         "title": "Standard",
-        "gameplay": "Standard",
-        "customCategories": []
+        "gameplay": "",
+        "customCategories": [
+          "Aether Deck"
+        ]
       }
     ]
   },
   "gameplay": {
-    "Standard": {
+    "Classic": {
       "mulligan": {
         "info": "You may return any number of cards from your starting hand to your deck, shuffle, and draw the same number of cards you shuffled back once.",
         "startingHandSize": "6",
