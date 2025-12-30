@@ -126,6 +126,12 @@
                   "style": false,
                   "content": [
                     {
+                      "section": "Deck",
+                      "style": {
+                        "width": 100
+                      }
+                    },
+                    {
                       "section": "Discard",
                       "style": {
                         "width": 100
