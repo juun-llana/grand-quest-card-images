@@ -234,7 +234,7 @@
           "Field": {
             "title": "Field",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -250,7 +250,7 @@
           "Destination": {
             "title": "Destination",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -266,7 +266,7 @@
           "Aether_Deck": {
             "title": "Aether_Deck",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -282,7 +282,7 @@
           "Aether_Zone": {
             "title": "Aether_Zone",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -298,7 +298,7 @@
           "Adventurer": {
             "title": "Adventurer",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
