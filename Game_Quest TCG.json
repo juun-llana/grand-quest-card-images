@@ -94,13 +94,13 @@
                     {
                       "section": "Field",
                       "style": {
-                        "width": 800
+                        "width": 1000
                       }
                     },
                     {
                       "section": "Aether_Zone",
                       "style": {
-                        "width": 800
+                        "width": 1000
                       }
                     }
                   ],
