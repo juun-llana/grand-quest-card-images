@@ -9,7 +9,7 @@
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://juun-llana.github.io/grand-quest-card-images/CardList.json",
-    "cardBack": ""
+    "cardBack": "https://juun-llana.github.io/grand-quest-card-images/Quest Back.png"
   },
   "deckBuilding": {
     "mainFilters": [
@@ -173,6 +173,40 @@
             "height": "DEFAULT",
             "alignment": "CENTER",
             "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "opponentAlignment": false,
