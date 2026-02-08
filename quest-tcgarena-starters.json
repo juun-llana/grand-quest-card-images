@@ -111,45 +111,14 @@
     "cardCount": 62
   },
   {
-    "format": ["Standard"],
+    "title": "ST02 - Ciradyn",
+    "id": "ea4f875e-554e-429a-a872-a931b5675e90",
     "game": "Quest TCG",
-    "lastModifiedAt": "2025-12-30T04:44:37.701Z",
-    "createdAt": "2025-12-30T04:44:14.986Z",
-    "id": "9ff56f57-94f1-4ad0-ab25-bce600a25dc1",
-    "title": "ST01 - Mordanis",
+    "format": ["Standard"],
+    "cardCount": 62,
+    "createdAt": "2026-02-08T02:05:50.153Z",
+    "lastModifiedAt": "2026-02-08T02:08:28.703Z",
     "deckList": {
-      "Action": [
-        {
-          "count": 4,
-          "id": "ST01-013"
-        },
-        {
-          "count": 2,
-          "id": "ST01-014"
-        },
-        {
-          "count": 2,
-          "id": "ST01-015"
-        }
-      ],
-      "Sustainable": [
-        {
-          "count": 4,
-          "id": "ST01-016"
-        }
-      ],
-      "Adventurer": [
-        {
-          "count": 1,
-          "id": "ST01-001"
-        }
-      ],
-      "Equipment": [
-        {
-          "count": 2,
-          "id": "ST01-017"
-        }
-      ],
       "categoriesOrder": [
         "Aether_Deck",
         "Adventurer",
@@ -159,50 +128,89 @@
         "Equipment",
         "Destination"
       ],
+      "Sideboard": [],
+      "Adventurer": [
+        {
+          "count": 1,
+          "id": "ST02-001"
+        }
+      ],
       "Hire": [
         {
           "count": 4,
-          "id": "ST01-002"
+          "id": "ST02-002"
         },
         {
           "count": 4,
-          "id": "ST01-003"
+          "id": "ST02-003"
         },
         {
           "count": 4,
-          "id": "ST01-004"
+          "id": "ST02-004"
         },
         {
           "count": 4,
-          "id": "ST01-005"
-        },
-        {
-          "count": 4,
-          "id": "ST01-006"
-        },
-        {
-          "count": 4,
-          "id": "ST01-007"
+          "id": "ST02-005"
         },
         {
           "count": 2,
-          "id": "ST01-008"
-        },
-        {
-          "count": 2,
-          "id": "ST01-009"
-        },
-        {
-          "count": 2,
-          "id": "ST01-010"
-        },
-        {
-          "count": 2,
-          "id": "ST01-011"
+          "id": "ST02-006"
         },
         {
           "count": 4,
-          "id": "ST01-012"
+          "id": "ST02-007"
+        },
+        {
+          "count": 4,
+          "id": "ST02-008"
+        },
+        {
+          "count": 4,
+          "id": "ST02-009"
+        },
+        {
+          "count": 2,
+          "id": "ST02-010"
+        },
+        {
+          "count": 2,
+          "id": "ST02-011"
+        },
+        {
+          "count": 2,
+          "id": "ST02-012"
+        }
+      ],
+      "Action": [
+        {
+          "count": 4,
+          "id": "ST02-013"
+        },
+        {
+          "count": 2,
+          "id": "ST02-014"
+        },
+        {
+          "count": 2,
+          "id": "ST02-015"
+        }
+      ],
+      "Sustainable": [
+        {
+          "count": 4,
+          "id": "ST02-016"
+        }
+      ],
+      "Equipment": [
+        {
+          "count": 2,
+          "id": "ST02-017"
+        }
+      ],
+      "Destination": [
+        {
+          "count": 1,
+          "id": "ST02-018"
         }
       ],
       "Aether_Deck": [
@@ -210,15 +218,7 @@
           "count": 10,
           "id": "A-001"
         }
-      ],
-      "Destination": [
-        {
-          "count": 1,
-          "id": "ST01-018"
-        }
-      ],
-      "Sideboard": []
-    },
-    "cardCount": 62
+      ]
+    }
   }
 ]
