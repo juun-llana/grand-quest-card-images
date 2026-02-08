@@ -109,5 +109,116 @@
       "Sideboard": []
     },
     "cardCount": 62
+  },
+  {
+    "game": "Quest TCG",
+    "createdAt": "2026-02-08T02:05:50.153Z",
+    "title": "ST02 - Ciradyn",
+    "cardCount": 62,
+    "deckList": {
+      "Destination": [
+        {
+          "count": 1,
+          "id": "ST02-018"
+        }
+      ],
+      "Hire": [
+        {
+          "count": 4,
+          "id": "ST02-002"
+        },
+        {
+          "count": 4,
+          "id": "ST02-003"
+        },
+        {
+          "count": 4,
+          "id": "ST02-004"
+        },
+        {
+          "count": 4,
+          "id": "ST02-005"
+        },
+        {
+          "count": 2,
+          "id": "ST02-006"
+        },
+        {
+          "count": 4,
+          "id": "ST02-007"
+        },
+        {
+          "count": 4,
+          "id": "ST02-008"
+        },
+        {
+          "count": 4,
+          "id": "ST02-009"
+        },
+        {
+          "count": 2,
+          "id": "ST02-010"
+        },
+        {
+          "count": 2,
+          "id": "ST02-011"
+        },
+        {
+          "count": 2,
+          "id": "ST02-012"
+        }
+      ],
+      "Equipment": [
+        {
+          "count": 2,
+          "id": "ST02-017"
+        }
+      ],
+      "Aether_Deck": [
+        {
+          "count": 10,
+          "id": "A-001"
+        }
+      ],
+      "Adventurer": [
+        {
+          "count": 1,
+          "id": "ST02-001"
+        }
+      ],
+      "Sideboard": [],
+      "Sustainable": [
+        {
+          "count": 4,
+          "id": "ST02-016"
+        }
+      ],
+      "categoriesOrder": [
+        "Aether_Deck",
+        "Adventurer",
+        "Hire",
+        "Action",
+        "Sustainable",
+        "Equipment",
+        "Destination"
+      ],
+      "Action": [
+        {
+          "count": 4,
+          "id": "ST02-013"
+        },
+        {
+          "count": 2,
+          "id": "ST02-014"
+        },
+        {
+          "count": 2,
+          "id": "ST02-015"
+        }
+      ]
+    },
+    "id": "ea4f875e-554e-429a-a872-a931b5675e90",
+    "lastModifiedAt": "2026-02-08T02:08:28.703Z",
+    "format": ["Standard"]
   }
 ]
