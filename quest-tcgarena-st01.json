@@ -1,116 +1,224 @@
 [
   {
-  "format": [
-    "Standard"
-  ],
-  "game": "Quest TCG",
-  "lastModifiedAt": "2025-12-30T04:44:37.701Z",
-  "createdAt": "2025-12-30T04:44:14.986Z",
-  "id": "9ff56f57-94f1-4ad0-ab25-bce600a25dc1",
-  "title": "ST01 - Mordanis",
-  "deckList": {
-    "Action": [
-      {
-        "count": 4,
-        "id": "ST01-013"
-      },
-      {
-        "count": 2,
-        "id": "ST01-014"
-      },
-      {
-        "count": 2,
-        "id": "ST01-015"
-      }
-    ],
-    "Sustainable": [
-      {
-        "count": 4,
-        "id": "ST01-016"
-      }
-    ],
-    "Adventurer": [
-      {
-        "count": 1,
-        "id": "ST01-001"
-      }
-    ],
-    "Equipment": [
-      {
-        "count": 2,
-        "id": "ST01-017"
-      }
-    ],
-    "categoriesOrder": [
-      "Aether_Deck",
-      "Adventurer",
-      "Hire",
-      "Action",
-      "Sustainable",
-      "Equipment",
-      "Destination"
-    ],
-    "Hire": [
-      {
-        "count": 4,
-        "id": "ST01-002"
-      },
-      {
-        "count": 4,
-        "id": "ST01-003"
-      },
-      {
-        "count": 4,
-        "id": "ST01-004"
-      },
-      {
-        "count": 4,
-        "id": "ST01-005"
-      },
-      {
-        "count": 4,
-        "id": "ST01-006"
-      },
-      {
-        "count": 4,
-        "id": "ST01-007"
-      },
-      {
-        "count": 2,
-        "id": "ST01-008"
-      },
-      {
-        "count": 2,
-        "id": "ST01-009"
-      },
-      {
-        "count": 2,
-        "id": "ST01-010"
-      },
-      {
-        "count": 2,
-        "id": "ST01-011"
-      },
-      {
-        "count": 4,
-        "id": "ST01-012"
-      }
-    ],
-    "Aether_Deck": [
-      {
-        "count": 10,
-        "id": "A-001"
-      }
-    ],
-    "Destination": [
-      {
-        "count": 1,
-        "id": "ST01-018"
-      }
-    ],
-    "Sideboard": []
+    "format": ["Standard"],
+    "game": "Quest TCG",
+    "lastModifiedAt": "2025-12-30T04:44:37.701Z",
+    "createdAt": "2025-12-30T04:44:14.986Z",
+    "id": "9ff56f57-94f1-4ad0-ab25-bce600a25dc1",
+    "title": "ST01 - Mordanis",
+    "deckList": {
+      "Action": [
+        {
+          "count": 4,
+          "id": "ST01-013"
+        },
+        {
+          "count": 2,
+          "id": "ST01-014"
+        },
+        {
+          "count": 2,
+          "id": "ST01-015"
+        }
+      ],
+      "Sustainable": [
+        {
+          "count": 4,
+          "id": "ST01-016"
+        }
+      ],
+      "Adventurer": [
+        {
+          "count": 1,
+          "id": "ST01-001"
+        }
+      ],
+      "Equipment": [
+        {
+          "count": 2,
+          "id": "ST01-017"
+        }
+      ],
+      "categoriesOrder": [
+        "Aether_Deck",
+        "Adventurer",
+        "Hire",
+        "Action",
+        "Sustainable",
+        "Equipment",
+        "Destination"
+      ],
+      "Hire": [
+        {
+          "count": 4,
+          "id": "ST01-002"
+        },
+        {
+          "count": 4,
+          "id": "ST01-003"
+        },
+        {
+          "count": 4,
+          "id": "ST01-004"
+        },
+        {
+          "count": 4,
+          "id": "ST01-005"
+        },
+        {
+          "count": 4,
+          "id": "ST01-006"
+        },
+        {
+          "count": 4,
+          "id": "ST01-007"
+        },
+        {
+          "count": 2,
+          "id": "ST01-008"
+        },
+        {
+          "count": 2,
+          "id": "ST01-009"
+        },
+        {
+          "count": 2,
+          "id": "ST01-010"
+        },
+        {
+          "count": 2,
+          "id": "ST01-011"
+        },
+        {
+          "count": 4,
+          "id": "ST01-012"
+        }
+      ],
+      "Aether_Deck": [
+        {
+          "count": 10,
+          "id": "A-001"
+        }
+      ],
+      "Destination": [
+        {
+          "count": 1,
+          "id": "ST01-018"
+        }
+      ],
+      "Sideboard": []
+    },
+    "cardCount": 62
   },
-  "cardCount": 62
-
-}
+  {
+    "format": ["Standard"],
+    "game": "Quest TCG",
+    "lastModifiedAt": "2025-12-30T04:44:37.701Z",
+    "createdAt": "2025-12-30T04:44:14.986Z",
+    "id": "9ff56f57-94f1-4ad0-ab25-bce600a25dc1",
+    "title": "ST01 - Mordanis",
+    "deckList": {
+      "Action": [
+        {
+          "count": 4,
+          "id": "ST01-013"
+        },
+        {
+          "count": 2,
+          "id": "ST01-014"
+        },
+        {
+          "count": 2,
+          "id": "ST01-015"
+        }
+      ],
+      "Sustainable": [
+        {
+          "count": 4,
+          "id": "ST01-016"
+        }
+      ],
+      "Adventurer": [
+        {
+          "count": 1,
+          "id": "ST01-001"
+        }
+      ],
+      "Equipment": [
+        {
+          "count": 2,
+          "id": "ST01-017"
+        }
+      ],
+      "categoriesOrder": [
+        "Aether_Deck",
+        "Adventurer",
+        "Hire",
+        "Action",
+        "Sustainable",
+        "Equipment",
+        "Destination"
+      ],
+      "Hire": [
+        {
+          "count": 4,
+          "id": "ST01-002"
+        },
+        {
+          "count": 4,
+          "id": "ST01-003"
+        },
+        {
+          "count": 4,
+          "id": "ST01-004"
+        },
+        {
+          "count": 4,
+          "id": "ST01-005"
+        },
+        {
+          "count": 4,
+          "id": "ST01-006"
+        },
+        {
+          "count": 4,
+          "id": "ST01-007"
+        },
+        {
+          "count": 2,
+          "id": "ST01-008"
+        },
+        {
+          "count": 2,
+          "id": "ST01-009"
+        },
+        {
+          "count": 2,
+          "id": "ST01-010"
+        },
+        {
+          "count": 2,
+          "id": "ST01-011"
+        },
+        {
+          "count": 4,
+          "id": "ST01-012"
+        }
+      ],
+      "Aether_Deck": [
+        {
+          "count": 10,
+          "id": "A-001"
+        }
+      ],
+      "Destination": [
+        {
+          "count": 1,
+          "id": "ST01-018"
+        }
+      ],
+      "Sideboard": []
+    },
+    "cardCount": 62
+  }
 ]
