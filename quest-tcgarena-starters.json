@@ -96,7 +96,7 @@
       ],
       "Aether_Deck": [
         {
-          "count": 10,
+          "count": 15,
           "id": "A-001"
         }
       ],
@@ -176,7 +176,7 @@
       ],
       "Aether_Deck": [
         {
-          "count": 10,
+          "count": 15,
           "id": "A-001"
         }
       ],
@@ -220,5 +220,118 @@
     "id": "ea4f875e-554e-429a-a872-a931b5675e90",
     "lastModifiedAt": "2026-02-08T02:08:28.703Z",
     "format": ["Standard"]
+  },
+  {
+  "title": "ST03 - Falwyn",
+  "id": "43fe741d-fd1b-4f63-8cc6-fc6b8c854be7",
+  "game": "Quest TCG",
+  "format": [
+    "Standard"
+  ],
+  "cardCount": 67,
+  "createdAt": "2026-03-01T03:34:35.697Z",
+  "lastModifiedAt": "2026-03-01T03:53:38.846Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Aether_Deck",
+      "Adventurer",
+      "Destination",
+      "Hire",
+      "Action",
+      "Sustainable",
+      "Equipment"
+    ],
+    "Sideboard": [],
+    "Adventurer": [
+      {
+        "count": 1,
+        "id": "ST03-001"
+      }
+    ],
+    "Destination": [
+      {
+        "count": 1,
+        "id": "ST03-018"
+      }
+    ],
+    "Hire": [
+      {
+        "count": 4,
+        "id": "ST03-002"
+      },
+      {
+        "count": 4,
+        "id": "ST03-003"
+      },
+      {
+        "count": 4,
+        "id": "ST03-004"
+      },
+      {
+        "count": 4,
+        "id": "ST03-005"
+      },
+      {
+        "count": 4,
+        "id": "ST03-006"
+      },
+      {
+        "count": 4,
+        "id": "ST03-007"
+      },
+      {
+        "count": 4,
+        "id": "ST03-008"
+      },
+      {
+        "count": 2,
+        "id": "ST03-009"
+      },
+      {
+        "count": 2,
+        "id": "ST03-010"
+      },
+      {
+        "count": 2,
+        "id": "ST03-011"
+      },
+      {
+        "count": 2,
+        "id": "ST03-012"
+      }
+    ],
+    "Action": [
+      {
+        "count": 4,
+        "id": "ST03-013"
+      },
+      {
+        "count": 2,
+        "id": "ST03-015"
+      },
+      {
+        "count": 2,
+        "id": "ST03-014"
+      }
+    ],
+    "Sustainable": [
+      {
+        "count": 4,
+        "id": "ST03-016"
+      }
+    ],
+    "Equipment": [
+      {
+        "count": 2,
+        "id": "ST03-017"
+      }
+    ],
+    "Aether_Deck": [
+      {
+        "count": 15,
+        "id": "A-001"
+      }
+    ]
   }
+}
 ]
