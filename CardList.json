@@ -884,6 +884,301 @@
     "type": "Destination",
     "cost": 0
   },
+  "ST04-001": {
+    "id": "ST04-001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Moss Knight, Irvain",
+        "type": "Adventurer",
+        "cost": "0",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-001.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moss Knight, Irvain",
+    "type": "Adventurer",
+    "cost": "0"
+  },
+  "ST04-002": {
+    "id": "ST04-002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Acorn Squire",
+        "type": "Hire",
+        "cost": "1",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-002.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Acorn Squire",
+    "type": "Hire",
+    "cost": "1"
+  },
+  "ST04-003": {
+    "id": "ST04-003",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Moss Errant",
+        "type": "Hire",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-003.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Moss Errant",
+    "type": "Hire",
+    "cost": "2"
+  },
+  "ST04-004": {
+    "id": "ST04-004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fungal Channeler",
+        "type": "Hire",
+        "cost": "3",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-004.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fungal Channeler",
+    "type": "Hire",
+    "cost": "3"
+  },
+  "ST04-005": {
+    "id": "ST04-005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Haunted Stump",
+        "type": "Hire",
+        "cost": "3",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-005.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Haunted Stump",
+    "type": "Hire",
+    "cost": "3"
+  },
+  "ST04-006": {
+    "id": "ST04-006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mossy Golem",
+        "type": "Hire",
+        "cost": "4",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-006.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossy Golem",
+    "type": "Hire",
+    "cost": "4"
+  },
+  "ST04-007": {
+    "id": "ST04-007",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verdant Paladin",
+        "type": "Hire",
+        "cost": "4",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-007.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Verdant Paladin",
+    "type": "Hire",
+    "cost": "4"
+  },
+  "ST04-008": {
+    "id": "ST04-008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Root Vanguard",
+        "type": "Hire",
+        "cost": "4",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-008.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Root Vanguard",
+    "type": "Hire",
+    "cost": "4"
+  },
+  "ST04-009": {
+    "id": "ST04-009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tree Top Archer",
+        "type": "Hire",
+        "cost": "5",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-009.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tree Top Archer",
+    "type": "Hire",
+    "cost": "5"
+  },
+  "ST04-010": {
+    "id": "ST04-010",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sylvan Barkshield",
+        "type": "Hire",
+        "cost": "5",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-010.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sylvan Barkshield",
+    "type": "Hire",
+    "cost": "5"
+  },
+  "ST04-011": {
+    "id": "ST04-011",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Vine Sorcerer",
+        "type": "Hire",
+        "cost": "6",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-011.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vine Sorcerer",
+    "type": "Hire",
+    "cost": "6"
+  },
+  "ST04-012": {
+    "id": "ST04-012",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Forest Behemoth, Thorinmaw",
+        "type": "Hire",
+        "cost": "8",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-012.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Forest Behemoth, Thorinmaw",
+    "type": "Hire",
+    "cost": "8"
+  },
+  "ST04-013": {
+    "id": "ST04-013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ensnaring Vines",
+        "type": "Action",
+        "cost": "1",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-013.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ensnaring Vines",
+    "type": "Action",
+    "cost": "1"
+  },
+  "ST04-014": {
+    "id": "ST04-014",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Suspicious Pile of Leaves",
+        "type": "Action",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-014.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Suspicious Pile of Leaves",
+    "type": "Action",
+    "cost": "2"
+  },
+  "ST04-015": {
+    "id": "ST04-015",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Massive Tremor",
+        "type": "Action",
+        "cost": "6",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-015.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Massive Tremor",
+    "type": "Action",
+    "cost": "6"
+  },
+  "ST04-016": {
+    "id": "ST04-016",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verdus Castle",
+        "type": "Sustainable",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-016.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Verdus Castle",
+    "type": "Sustainable",
+    "cost": "2"
+  },
+  "ST04-017": {
+    "id": "ST04-017",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Jungle Staff",
+        "type": "Equipment",
+        "cost": "2",
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-017.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jungle Staff",
+    "type": "Equipment",
+    "cost": "2"
+  },
+  "ST04-018": {
+    "id": "ST04-018",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fullgreen Forest",
+        "type": "Destination",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-018-f.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Fullgreen Forest, Abandoned Castle",
+        "type": "Destination",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Green Cards/ST04/ST04-018-b.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fullgreen Forest",
+    "type": "Destination",
+    "cost": 0
+  },
   "A-001": {
     "id": "A-001",
     "isToken": false,
