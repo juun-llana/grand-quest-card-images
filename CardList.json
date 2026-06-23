@@ -100,14 +100,14 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Charhound Pack",
+        "name": "Charhound",
         "type": "Hire",
         "cost": "0",
         "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-007.png",
         "isHorizontal": false
       }
     },
-    "name": "Charhound Pack",
+    "name": "Charhound",
     "type": "Hire",
     "cost": "3"
   },
@@ -228,14 +228,14 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Eruption",
+        "name": "Lava Slide",
         "type": "Action",
         "cost": "7",
         "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-015.png",
         "isHorizontal": false
       }
     },
-    "name": "Eruption",
+    "name": "Lava Slide",
     "type": "Action",
     "cost": "7"
   },
@@ -491,14 +491,14 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Vortex Shield",
+        "name": "Stratos Shield",
         "type": "Action",
         "cost": "1",
         "image": "https://juun-llana.github.io/grand-quest-card-images/Yellow Cards/ST02/ST02-013.png",
         "isHorizontal": false
       }
     },
-    "name": "Vortex Shield",
+    "name": "Stratos Shield",
     "type": "Action",
     "cost": "1"
   },
