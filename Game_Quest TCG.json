@@ -72,7 +72,8 @@
               "style": {
                 "justifyContent": "center",
                 "alignItems": "flex-start",
-                "gap": 16
+                "gap": 16,
+                "zoom": 1.15
               },
               "content": [
                 {
@@ -91,7 +92,10 @@
                     {
                       "section": "Aether_Deck",
                       "style": {
-                        "width": 100
+                        "width": 85,
+                        "maxWidth": 85,
+                        "zoom": 0.8,
+                        "alignSelf": "flex-start"
                       }
                     }
                   ],
