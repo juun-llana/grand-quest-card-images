@@ -259,17 +259,22 @@
             "showHiddenCardInHistory": false
           },
           "Deck": {
-            "isHidden": "yes",
-            "height": 12,
-            "alignment": "DECK",
-            "displayedTitle": "Main Deck",
-            "isHorizontalAllowed": true,
-            "noAutoPayTo": true,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false,
-            "isDefaultSection": true,
-            "drawPerTurn": 0
-          },
+  "isDefaultSection": true,
+  "title": "Deck",
+  "isHidden": "yes",
+  "height": "DEFAULT",
+  "alignment": "NONE",
+  "isHorizontalAllowed": false,
+  "isGroupForbidden": true,
+  "opponentAlignment": false,
+  "noAutoPayTo": false,
+  "displayedTitle": "",
+  "noQuickActions": false,
+  "enterTapped": false,
+  "enterSpun": false,
+  "keepTappedNewTurn": false,
+  "showHiddenCardInHistory": false
+},
           "Hand": {
             "isHidden": "opponent-only",
             "height": 12,
