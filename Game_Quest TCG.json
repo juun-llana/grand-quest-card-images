@@ -57,8 +57,6 @@
           "Aether_Deck",
           "Adventurer",
           "Destination",
-          "Extra_Zone",
-          "Counter_Zone",
           "Battleground1",
           "Battleground2",
           "Battleground3",
@@ -142,25 +140,6 @@
                       }
                     },
                     {
-                      "direction": "row",
-                      "style": false,
-                      "content": [
-                        {
-                          "section": "Extra_Zone",
-                          "style": {
-                            "width": 500
-                          }
-                        },
-                        {
-                          "section": "Counter_Zone",
-                          "style": {
-                            "width": 500
-                          }
-                        }
-                      ],
-                      "isSymetricalForOpponents": false
-                    },
-                    {
                       "section": "Aether_Zone",
                       "style": {
                         "width": 1000
@@ -197,15 +176,15 @@
         "autoPlayFromHand": {
           "Hire": "Hire_Zone",
           "Action": "Discard",
-          "Sustainable": "Extra_Zone",
-          "Equipment": "Extra_Zone"
+          "Sustainable": "Hire_Zone",
+          "Equipment": "Hire_Zone"
         },
         "autoPlayFromStack": {
           "Aether": "Aether_Zone",
           "Hire": "Hire_Zone",
           "Action": "Discard",
-          "Sustainable": "Extra_Zone",
-          "Equipment": "Extra_Zone"
+          "Sustainable": "Hire_Zone",
+          "Equipment": "Hire_Zone"
         },
         "sectionsDict": {
           "Hand": {
@@ -405,38 +384,6 @@
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "displayedTitle": "Camp",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Extra_Zone": {
-            "title": "Extra_Zone",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Counter_Zone": {
-            "title": "Counter_Zone",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
