@@ -5,7 +5,7 @@
     "backgrounds": [],
     "decksUrl": "https://juun-llana.github.io/grand-quest-card-images/quest-tcgarena-starters.json"
   },
-  "customHelp": "",
+  "customHelp": "Manual Grand Quest table. Use the rules version agreed with your opponent.\nCaptain and Destination each have a home zone. Battleground 1-5 are five visual slots; players enforce occupancy.\nCrystals are individual cards in the Crystal Deck and Crystal Keep. The Aether tracker is a separate numerical pool.\nDraw your opening hand and perform any mulligan manually. Turn draws, refreshes, resource gains, payments and effect resolution are manual.\nTo ramp, move/draw a Crystal into the Crystal Keep and reveal it if it remains face down. Rest or ready the individual Crystal as required.\nResolve recruitment and combat response windows with your opponent. No attack legality, timing, damage, treasure awards or win conditions are automated.\nUse Wayside for discarded/destroyed cards. Keep attached Equipment grouped with its card where appropriate.\nChanging turns does not draw cards or ready rested cards in this configuration. Adjust Treasure and Aether yourself.\nCompatibility: Adventurer is the internal Captain category; Aether_Deck is the internal Crystal Deck category. These keys retain your existing deck format. Rename them only together with the card/deck data.\nKeep ongoing effects in Camp and group Equipment with its attached card. The zero automatic opening draw and zero tracker defaults are manual-table settings, not prescribed game rules.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://juun-llana.github.io/grand-quest-card-images/CardList.json",
@@ -32,118 +32,117 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "info": "You may return any number of cards from your starting hand to your deck, shuffle, and draw the same number of cards you shuffled back once.",
-        "startingHandSize": "6",
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": true
+        "startingHandSize": 0,
+        "mulliganCount": {
+          "min": 0,
+          "max": 0
+        }
       },
       "newTurn": {
-        "drawOnStart": true,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "drawOnStart": false,
+        "drawPerTurn": 0,
+        "sharedTurn": false
       },
-      "defaultNotes": "",
-      "tokens": [],
-      "countersStartingValues": [
-        "1"
-      ],
-      "hideFacedDownCards": false,
+      "countersStartingValues": [],
+      "defaultNotes": "Manual setup: agree on the current opening hand, mulligan and starting resources. The previous configuration used a six-card opening hand. Draw and refresh manually. Track damage and temporary effects here.",
+      "hideFacedDownCards": true,
       "sections": {
-        "customSections": [
-          "Hire_Zone",
-          "Aether_Zone",
-          "Aether_Deck",
-          "Adventurer",
-          "Destination",
-          "Extra_Zone",
-          "Counter_Zone"
-        ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": false,
+          "style": {
+            "gap": "0.4vh"
+          },
           "content": [
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "gap": "0.4vh"
+              },
               "content": [
                 {
-                  "direction": "column",
+                  "section": "Adventurer",
                   "style": {
-                    "width": 150
-                  },
-                  "content": [
-                    {
-                      "section": "Adventurer",
-                      "style": {
-                        "width": 100
-                      }
-                    },
-                    {
-                      "section": "Aether_Deck",
-                      "style": {
-                        "width": 100
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                    "minWidth": 0,
+                    "flex": "1 1 0"
+                  }
                 },
                 {
-                  "direction": "column",
-                  "style": false,
-                  "content": [
-                    {
-                      "section": "Hire_Zone",
-                      "style": {
-                        "width": 1000
-                      }
-                    },
-                    {
-                      "direction": "row",
-                      "style": false,
-                      "content": [
-                        {
-                          "section": "Extra_Zone",
-                          "style": {
-                            "width": 500
-                          }
-                        },
-                        {
-                          "section": "Counter_Zone",
-                          "style": {
-                            "width": 500
-                          }
-                        }
-                      ],
-                      "isSymetricalForOpponents": false
-                    },
-                    {
-                      "section": "Aether_Zone",
-                      "style": {
-                        "width": 1000
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                  "section": "Battleground1",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1.2 1 0"
+                  }
                 },
                 {
-                  "direction": "column",
+                  "section": "Battleground2",
                   "style": {
-                    "width": 150
-                  },
-                  "content": [
-                    {
-                      "section": "Destination",
-                      "style": {
-                        "width": 100
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                    "minWidth": 0,
+                    "flex": "1.2 1 0"
+                  }
+                },
+                {
+                  "section": "Battleground3",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1.2 1 0"
+                  }
+                },
+                {
+                  "section": "Battleground4",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1.2 1 0"
+                  }
+                },
+                {
+                  "section": "Battleground5",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1.2 1 0"
+                  }
+                },
+                {
+                  "section": "Destination",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1 1 0"
+                  }
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
+            },
+            {
+              "section": "Camp",
+              "style": {
+                "minWidth": 0
+              }
+            },
+            {
+              "direction": "row",
+              "style": {
+                "gap": "0.8vh"
+              },
+              "content": [
+                {
+                  "section": "Aether_Deck",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "0 0 12%"
+                  }
+                },
+                {
+                  "section": "CrystalKeep",
+                  "style": {
+                    "minWidth": 0,
+                    "flex": "1 1 0"
+                  }
+                }
+              ]
+            },
+            {
+              "section": "Trackers",
+              "style": {
+                "minWidth": 0
+              }
             }
           ]
         },
@@ -152,254 +151,258 @@
           "Adventurer",
           "Destination"
         ],
-        "autoPlayFromHand": {
-          "Hire": "Hire_Zone",
-          "Action": "Discard",
-          "Sustainable": "Extra_Zone",
-          "Equipment": "Extra_Zone"
-        },
-        "autoPlayFromStack": {
-          "Aether": "Aether_Zone",
-          "Hire": "Hire_Zone",
-          "Action": "Discard",
-          "Sustainable": "Extra_Zone",
-          "Equipment": "Extra_Zone"
-        },
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
         "sectionsDict": {
-          "Hand": {
-            "isDefaultSection": true,
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
+          "Adventurer": {
+            "isHidden": "no",
+            "height": 12,
             "alignment": "CENTER",
-            "autoPayFrom": true,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Discard": {
-            "isDefaultSection": true,
-            "title": "Discard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
+            "displayedTitle": "Captain",
+            "isHorizontalAllowed": true,
             "noAutoPayTo": true,
-            "opponentAlignment": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Deck": {
-            "isDefaultSection": true,
-            "title": "Deck",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Stack": {
-            "isDefaultSection": true,
-            "title": "Stack",
-            "isHidden": "no",
-            "height": "HUGE",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Pile",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Exile": {
-            "isDefaultSection": true,
-            "title": "Exile",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "displayedTitle": "Removed",
-            "opponentAlignment": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "ExileHidden": {
-            "isDefaultSection": true,
-            "title": "ExileHidden",
-            "isHidden": "yes",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "noAutoPayTo": true,
-            "displayedTitle": "Removed hidden",
-            "opponentAlignment": false,
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Sideboard": {
-            "isDefaultSection": true,
-            "title": "Sideboard",
-            "isHidden": "no",
-            "height": "DEFAULT",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
           "Destination": {
-            "title": "Destination",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": 12,
             "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "displayedTitle": "Destination",
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Battleground1": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Battleground 1",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Battleground2": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Battleground 2",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Battleground3": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Battleground 3",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Battleground4": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Battleground 4",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Battleground5": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Battleground 5",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false
+          },
+          "Camp": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "START",
+            "displayedTitle": "Camp",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
           "Aether_Deck": {
-            "title": "Aether_Deck",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "isHidden": "yes",
+            "height": 11,
+            "alignment": "DECK",
+            "displayedTitle": "Crystal Deck",
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Aether_Zone": {
-            "title": "Aether_Zone",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Adventurer": {
-            "title": "Adventurer",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "drawPerTurn": 0,
+            "drawDestinations": {
+              "_default": "CrystalKeep"
+            }
           },
-          "Hire_Zone": {
-            "title": "Hire_Zone",
+          "CrystalKeep": {
             "isHidden": "no",
-            "height": "SMALL",
+            "height": 11,
             "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "displayedTitle": "Crystal Keep",
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
             "showHiddenCardInHistory": false
           },
-          "Extra_Zone": {
-            "title": "Extra_Zone",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+          "Deck": {
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Main Deck",
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "drawPerTurn": 0
           },
-          "Counter_Zone": {
-            "title": "Counter_Zone",
-            "isHidden": "no",
-            "height": "SMALL",
+          "Hand": {
+            "isHidden": "opponent-only",
+            "height": 12,
             "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "displayedTitle": "Hand",
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Discard": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Wayside",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Stack": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "START",
+            "displayedTitle": "Pending Effects",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Trackers": {
+            "type": "custom",
+            "isShared": false,
+            "defaultValue": {
+              "treasure": 0,
+              "aether": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "flex",
+                  "gap": "1.5rem",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "padding": "0.25rem",
+                  "fontWeight": 600
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "children": "Treasure"
+                },
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{ game.data.Trackers.treasure }}",
+                    "style": {
+                      "width": "4rem"
+                    }
+                  },
+                  "onChange": "game.data.Trackers.treasure = Number(value)"
+                },
+                {
+                  "type": "span",
+                  "children": "Aether"
+                },
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{ game.data.Trackers.aether }}",
+                    "style": {
+                      "width": "4rem"
+                    }
+                  },
+                  "onChange": "game.data.Trackers.aether = Number(value)"
+                }
+              ]
+            }
+          },
+          "Remove": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Removed",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "RemoveHidden": {
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Removed hidden",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
+          },
+          "Sideboard": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Sideboard",
+            "isHorizontalAllowed": true,
+            "noAutoPayTo": true,
+            "keepTappedNewTurn": true,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true
           }
-        }
-      }
+        },
+        "customSections": [
+          "Adventurer",
+          "Destination",
+          "Battleground1",
+          "Battleground2",
+          "Battleground3",
+          "Battleground4",
+          "Battleground5",
+          "Camp",
+          "Aether_Deck",
+          "CrystalKeep",
+          "Trackers"
+        ]
+      },
+      "tokens": []
     }
   }
 }
