@@ -69,12 +69,17 @@
           "content": [
             {
               "direction": "row",
-              "style": false,
+              "style": {
+                "justifyContent": "center",
+                "alignItems": "flex-start",
+                "gap": 16
+              },
               "content": [
                 {
                   "direction": "column",
                   "style": {
-                    "width": 150
+                    "width": 100,
+                    "flex": "0 0 100px"
                   },
                   "content": [
                     {
@@ -94,40 +99,52 @@
                 },
                 {
                   "direction": "column",
-                  "style": false,
+                  "style": {
+                    "width": 600,
+                    "flex": "0 0 600px"
+                  },
                   "content": [
                     {
                       "direction": "row",
-                      "style": false,
+                      "style": {
+                        "width": 600,
+                        "justifyContent": "center",
+                        "gap": 12
+                      },
                       "content": [
                         {
                           "section": "Battleground1",
                           "style": {
-                            "width": 200
+                            "width": 110,
+                            "flex": "0 0 110px"
                           }
                         },
                         {
                           "section": "Battleground2",
                           "style": {
-                            "width": 200
+                            "width": 110,
+                            "flex": "0 0 110px"
                           }
                         },
                         {
                           "section": "Battleground3",
                           "style": {
-                            "width": 200
+                            "width": 110,
+                            "flex": "0 0 110px"
                           }
                         },
                         {
                           "section": "Battleground4",
                           "style": {
-                            "width": 200
+                            "width": 110,
+                            "flex": "0 0 110px"
                           }
                         },
                         {
                           "section": "Battleground5",
                           "style": {
-                            "width": 200
+                            "width": 110,
+                            "flex": "0 0 110px"
                           }
                         }
                       ],
@@ -136,13 +153,13 @@
                     {
                       "section": "Hire_Zone",
                       "style": {
-                        "width": 1000
+                        "width": 600
                       }
                     },
                     {
                       "section": "Aether_Zone",
                       "style": {
-                        "width": 1000
+                        "width": 600
                       }
                     }
                   ],
@@ -151,7 +168,8 @@
                 {
                   "direction": "column",
                   "style": {
-                    "width": 150
+                    "width": 100,
+                    "flex": "0 0 100px"
                   },
                   "content": [
                     {
