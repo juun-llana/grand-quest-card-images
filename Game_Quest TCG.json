@@ -289,7 +289,7 @@
           "Discard": {
             "isHidden": "no",
             "height": 12,
-            "alignment": "DECK",
+            "alignment": "NONE",
             "displayedTitle": "Wayside",
             "isHorizontalAllowed": true,
             "noAutoPayTo": true,
@@ -362,7 +362,7 @@
           "Remove": {
             "isHidden": "no",
             "height": 12,
-            "alignment": "DECK",
+            "alignment": "NONE",
             "displayedTitle": "Removed",
             "isHorizontalAllowed": true,
             "noAutoPayTo": true,
@@ -373,7 +373,7 @@
           "RemoveHidden": {
             "isHidden": "yes",
             "height": 12,
-            "alignment": "DECK",
+            "alignment": "NONE",
             "displayedTitle": "Removed hidden",
             "isHorizontalAllowed": true,
             "noAutoPayTo": true,
@@ -384,7 +384,7 @@
           "Sideboard": {
             "isHidden": "no",
             "height": 12,
-            "alignment": "DECK",
+            "alignment": "NONE",
             "displayedTitle": "Sideboard",
             "isHorizontalAllowed": true,
             "noAutoPayTo": true,
