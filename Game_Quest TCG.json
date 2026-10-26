@@ -66,127 +66,102 @@
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
+          "style": {
+            "width": 1120,
+            "maxWidth": "100%",
+            "margin": "0 auto",
+            "gap": 8
+          },
           "content": [
             {
               "direction": "row",
               "style": {
                 "justifyContent": "center",
                 "alignItems": "flex-start",
-                "gap": 16,
-                "zoom": 1.15
+                "gap": 12
               },
               "content": [
                 {
-                  "direction": "column",
+                  "section": "Adventurer",
                   "style": {
                     "width": 100,
                     "flex": "0 0 100px"
-                  },
-                  "content": [
-                    {
-                      "section": "Adventurer",
-                      "style": {
-                        "width": 100
-                      }
-                    },
-                    {
-                      "section": "Aether_Deck",
-                      "style": {
-                        "width": 85,
-                        "maxWidth": 85,
-                        "zoom": 0.8,
-                        "alignSelf": "flex-start"
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                  }
                 },
                 {
-                  "direction": "column",
+                  "section": "Battleground1",
+                  "style": {
+                    "width": 110,
+                    "flex": "0 0 110px"
+                  }
+                },
+                {
+                  "section": "Battleground2",
+                  "style": {
+                    "width": 110,
+                    "flex": "0 0 110px"
+                  }
+                },
+                {
+                  "section": "Battleground3",
+                  "style": {
+                    "width": 110,
+                    "flex": "0 0 110px"
+                  }
+                },
+                {
+                  "section": "Battleground4",
+                  "style": {
+                    "width": 110,
+                    "flex": "0 0 110px"
+                  }
+                },
+                {
+                  "section": "Battleground5",
+                  "style": {
+                    "width": 110,
+                    "flex": "0 0 110px"
+                  }
+                },
+                {
+                  "section": "Destination",
+                  "style": {
+                    "width": 100,
+                    "flex": "0 0 100px"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "justifyContent": "center",
+                "alignItems": "flex-start",
+                "gap": 10
+              },
+              "content": [
+                {
+                  "section": "Aether_Deck",
+                  "style": {
+                    "width": 100,
+                    "flex": "0 0 100px"
+                  }
+                },
+                {
+                  "section": "Hire_Zone",
                   "style": {
                     "width": 600,
                     "flex": "0 0 600px"
-                  },
-                  "content": [
-                    {
-                      "direction": "row",
-                      "style": {
-                        "width": 600,
-                        "justifyContent": "center",
-                        "gap": 12
-                      },
-                      "content": [
-                        {
-                          "section": "Battleground1",
-                          "style": {
-                            "width": 110,
-                            "flex": "0 0 110px"
-                          }
-                        },
-                        {
-                          "section": "Battleground2",
-                          "style": {
-                            "width": 110,
-                            "flex": "0 0 110px"
-                          }
-                        },
-                        {
-                          "section": "Battleground3",
-                          "style": {
-                            "width": 110,
-                            "flex": "0 0 110px"
-                          }
-                        },
-                        {
-                          "section": "Battleground4",
-                          "style": {
-                            "width": 110,
-                            "flex": "0 0 110px"
-                          }
-                        },
-                        {
-                          "section": "Battleground5",
-                          "style": {
-                            "width": 110,
-                            "flex": "0 0 110px"
-                          }
-                        }
-                      ],
-                      "isSymetricalForOpponents": false
-                    },
-                    {
-                      "section": "Hire_Zone",
-                      "style": {
-                        "width": 600
-                      }
-                    },
-                    {
-                      "section": "Aether_Zone",
-                      "style": {
-                        "width": 600
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                  }
                 },
                 {
-                  "direction": "column",
+                  "section": "Aether_Zone",
                   "style": {
-                    "width": 100,
-                    "flex": "0 0 100px"
-                  },
-                  "content": [
-                    {
-                      "section": "Destination",
-                      "style": {
-                        "width": 100
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
+                    "width": 400,
+                    "flex": "0 0 400px"
+                  }
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             }
           ]
         },
