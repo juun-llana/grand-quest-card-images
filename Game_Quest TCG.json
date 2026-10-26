@@ -129,6 +129,13 @@
                     "width": 100,
                     "flex": "0 0 100px"
                   }
+                },
+                {
+                  "section": "Aether_Deck",
+                  "style": {
+                    "width": 100,
+                    "flex": "0 0 100px"
+                  }
                 }
               ]
             },
@@ -141,24 +148,17 @@
               },
               "content": [
                 {
-                  "section": "Aether_Deck",
-                  "style": {
-                    "width": 100,
-                    "flex": "0 0 100px"
-                  }
-                },
-                {
                   "section": "Hire_Zone",
                   "style": {
-                    "width": 600,
-                    "flex": "0 0 600px"
+                    "width": 666,
+                    "flex": "0 0 666px"
                   }
                 },
                 {
                   "section": "Aether_Zone",
                   "style": {
-                    "width": 400,
-                    "flex": "0 0 400px"
+                    "width": 444,
+                    "flex": "0 0 444px"
                   }
                 }
               ]
