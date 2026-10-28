@@ -307,15 +307,22 @@
     "face": {
       "front": {
         "name": "Gale Knight, Ciradyn",
-        "type": "Adventurer",
-        "cost": "0",
-        "image": "https://juun-llana.github.io/grand-quest-card-images/Yellow Cards/ST02/ST02-001.png",
+        "type": "Captain",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Yellow Cards/ST02/ST02-001-f.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Gale Knight, Ciradyn",
+        "type": "Captain",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Yellow Cards/ST02/ST02-001-b.png",
         "isHorizontal": false
       }
     },
     "name": "Gale Knight, Ciradyn",
-    "type": "Adventurer",
-    "cost": "0"
+    "type": "Captain",
+    "cost": 0
   },
   "ST02-002": {
     "id": "ST02-002",
