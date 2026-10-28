@@ -5,15 +5,22 @@
     "face": {
       "front": {
         "name": "Crimson Knight, Mordanis",
-        "type": "Adventurer",
-        "cost": "0",
-        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-001.png",
+        "type": "Captain",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-001-f.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Crimson Knight, Mordanis",
+        "type": "Captain",
+        "cost": 0,
+        "image": "https://juun-llana.github.io/grand-quest-card-images/Red Cards/ST01/ST01-001-b.png",
         "isHorizontal": false
       }
     },
     "name": "Crimson Knight, Mordanis",
-    "type": "Adventurer",
-    "cost": "0"
+    "type": "Captain",
+    "cost": 0
   },
   "ST01-002": {
     "id": "ST01-002",
